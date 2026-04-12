@@ -1,4 +1,8 @@
+
 <script>
+export const prerender = true;
+export const trailingSlash = 'always';
+
   import '@material/web/icon/icon.js';
   import '@material/web/ripple/ripple.js';
   import { page } from '$app/state';
