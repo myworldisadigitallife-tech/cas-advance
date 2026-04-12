@@ -1,5 +1,3 @@
-export const prerender = true;
-export const trailingSlash = 'always';
 
 <script>
 import { base } from '$app/paths';
