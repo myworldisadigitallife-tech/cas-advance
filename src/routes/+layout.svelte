@@ -39,7 +39,7 @@ import { base } from '$app/paths';
 
 <div class="app-shell">
   <aside class="rail-shell">
-    <a class="brand-badge" href="/dashboard" aria-label="CAS home">
+    <a class="brand-badge" href="{base}/dashboard" aria-label="CAS home">
       <span class="brand-mark">C</span>
       <span class="brand-copy">
         <strong>CAS</strong>
