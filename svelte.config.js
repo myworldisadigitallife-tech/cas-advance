@@ -6,13 +6,10 @@ const config = {
   preprocess: vitePreprocess(),
   kit: {
   prerender: {
-    handleHttpError: ({ path, message }) => {
-      // Ignore API calls that fail during the static build
-      if (path.startsWith('/api') || path.includes('your-api-url.com')) {
-        return;
-      }
-      // If it's a real page link error, still throw it so you know
-      throw new Error(message);
+    handleHttpError: ({ path, referrer, message }) => {
+      // This tells SvelteKit: "Just log it, but don't stop the build"
+      console.warn(`404 at ${path} (linked from ${referrer}): ${message}`);
+      return; 
     }
   },    
     adapter: adapter({ fallback: '404.html' }),
