@@ -19,7 +19,7 @@
   let periodLoading = true;
   let error = '';
 
-  const PDF_FALLBACK_BASE = 'http://127.0.0.1:8000/reports/financial-statements/';
+  const PDF_FALLBACK_BASE = 'https://casadvance-digitallife11.pythonanywhere.com/reports/financial-statements/';
 
   const moneyFormatter = new Intl.NumberFormat('en-PH', {
     style: 'currency',
@@ -124,7 +124,7 @@
     }
 
     if (url.startsWith('/')) {
-      return `http://127.0.0.1:8000${url}`;
+      return `https://casadvance-digitallife11.pythonanywhere.com${url}`;
     }
 
     return url;
