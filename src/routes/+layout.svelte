@@ -20,12 +20,12 @@ import { base } from '$app/paths';
     { href: '/ai-journal', label: 'AI journal', icon: 'auto_awesome' }
   ];
 
-  const primaryLinks = [
-    { href: '/dashboard', label: 'Dashboard', icon: 'space_dashboard' },
-    { href: '/reports', label: 'Reports', icon: 'query_stats' },
-    { href: '/journal-entries', label: 'Journals', icon: 'book_2' },
-    { href: '/periods', label: 'Periods', icon: 'calendar_month' },
-    { href: '/tax-codes', label: 'Tax codes', icon: 'receipt_long' }
+   const primaryLinks = [
+    { href: `${base}/dashboard`, label: 'Dashboard', icon: 'space_dashboard' },
+    { href: `${base}/reports`, label: 'Reports', icon: 'query_stats' },
+    { href: `${base}/journal-entries`, label: 'Journals', icon: 'book_2' },
+    { href: `${base}/periods`, label: 'Periods', icon: 'calendar_month' },
+    { href: `${base}/tax-codes`, label: 'Tax codes', icon: 'receipt_long' }
   ];
 
   const secondaryLinks = [];
