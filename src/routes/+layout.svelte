@@ -68,7 +68,7 @@ import { base } from '$app/paths';
           <a
             class:active={isActive('/profile')}
             class="rail-link"
-            href="/profile"
+            href="{base}/profile"
             aria-current={isActive('/profile') ? 'page' : undefined}
             title="Profile"
           >
@@ -83,7 +83,7 @@ import { base } from '$app/paths';
           <a
             class:active={isActive('/auth')}
             class="rail-link"
-            href="/auth"
+            href="{base}/auth"
             aria-current={isActive('/auth') ? 'page' : undefined}
             title="Login"
           >
