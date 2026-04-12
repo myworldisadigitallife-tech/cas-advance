@@ -1,7 +1,10 @@
-
-<script>
 export const prerender = true;
 export const trailingSlash = 'always';
+<script>
+  import { base } from '$app/paths';
+</script>
+<script>
+
 
   import '@material/web/icon/icon.js';
   import '@material/web/ripple/ripple.js';
