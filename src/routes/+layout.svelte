@@ -17,15 +17,15 @@ import { base } from '$app/paths';
   });
 
   const topLinks = [
-    { href: '${base}/ai-journal', label: 'AI journal', icon: 'auto_awesome' }
+    { href: '{base}/ai-journal', label: 'AI journal', icon: 'auto_awesome' }
   ];
 
    const primaryLinks = [
-    { href: `${base}/dashboard`, label: 'Dashboard', icon: 'space_dashboard' },
-    { href: `${base}/reports`, label: 'Reports', icon: 'query_stats' },
-    { href: `${base}/journal-entries`, label: 'Journals', icon: 'book_2' },
-    { href: `${base}/periods`, label: 'Periods', icon: 'calendar_month' },
-    { href: `${base}/tax-codes`, label: 'Tax codes', icon: 'receipt_long' }
+    { href: `{base}/dashboard`, label: 'Dashboard', icon: 'space_dashboard' },
+    { href: `{base}/reports`, label: 'Reports', icon: 'query_stats' },
+    { href: `{base}/journal-entries`, label: 'Journals', icon: 'book_2' },
+    { href: `{base}/periods`, label: 'Periods', icon: 'calendar_month' },
+    { href: `{base}/tax-codes`, label: 'Tax codes', icon: 'receipt_long' }
   ];
 
   const secondaryLinks = [];
