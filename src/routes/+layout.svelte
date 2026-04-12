@@ -17,7 +17,7 @@ import { base } from '$app/paths';
   });
 
   const topLinks = [
-    { href: '/ai-journal', label: 'AI journal', icon: 'auto_awesome' }
+    { href: '${base}/ai-journal', label: 'AI journal', icon: 'auto_awesome' }
   ];
 
    const primaryLinks = [
