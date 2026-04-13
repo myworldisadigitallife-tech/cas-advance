@@ -14,7 +14,7 @@ const config = {
   },    
     adapter: adapter({ fallback: '404.html' }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/cas-advance' : ''
+      base: process.env.NODE_ENV === 'production' ? '/' : ''
     }
   }
 };
