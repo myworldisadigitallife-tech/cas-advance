@@ -1,14 +1,7 @@
 
 <script>
 import { base } from '$app/paths';
-const topLinks = [
-  { href: `${base}/ai-journal`, label: 'AI journal', icon: 'auto_awesome' }
-];
 
-const primaryLinks = [
-  { href: `${base}/dashboard`, label: 'Dashboard', icon: 'space_dashboard' },
-  // ... update the rest
-];
   import '@material/web/icon/icon.js';
   import '@material/web/ripple/ripple.js';
   import { page } from '$app/state';
