@@ -17,15 +17,15 @@ import { base } from '$app/paths';
   });
 
   const topLinks = [
-    { href: `${base}/ai-journal`, label: 'AI journal', icon: 'auto_awesome' }
+    { href: `/ai-journal`, label: 'AI journal', icon: 'auto_awesome' }
   ];
 
    const primaryLinks = [
-    { href: `${base}/dashboard`, label: 'Dashboard', icon: 'space_dashboard' },
-    { href: `${base}/reports`, label: 'Reports', icon: 'query_stats' },
-    { href: `${base}/journal-entries`, label: 'Journals', icon: 'book_2' },
-    { href: `${base}/periods`, label: 'Periods', icon: 'calendar_month' },
-    { href: `${base}/tax-codes`, label: 'Tax codes', icon: 'receipt_long' }
+    { href: `/dashboard`, label: 'Dashboard', icon: 'space_dashboard' },
+    { href: `/reports`, label: 'Reports', icon: 'query_stats' },
+    { href: `/journal-entries`, label: 'Journals', icon: 'book_2' },
+    { href: `/periods`, label: 'Periods', icon: 'calendar_month' },
+    { href: `/tax-codes`, label: 'Tax codes', icon: 'receipt_long' }
   ];
 
   const secondaryLinks = [];
@@ -39,7 +39,7 @@ import { base } from '$app/paths';
 
 <div class="app-shell">
   <aside class="rail-shell">
-    <a class="brand-badge" href="{base}/dashboard" aria-label="CAS home">
+    <a class="brand-badge" href="/dashboard" aria-label="CAS home">
       <span class="brand-mark">C</span>
       <span class="brand-copy">
         <strong>CAS</strong>
@@ -68,7 +68,7 @@ import { base } from '$app/paths';
           <a
             class:active={isActive('/profile')}
             class="rail-link"
-            href="{base}/profile"
+            href="/profile"
             aria-current={isActive('/profile') ? 'page' : undefined}
             title="Profile"
           >
@@ -83,7 +83,7 @@ import { base } from '$app/paths';
           <a
             class:active={isActive('/auth')}
             class="rail-link"
-            href="{base}/auth"
+            href="/auth"
             aria-current={isActive('/auth') ? 'page' : undefined}
             title="Login"
           >

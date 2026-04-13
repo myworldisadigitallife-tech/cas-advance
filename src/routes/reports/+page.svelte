@@ -3,14 +3,14 @@
 
   const reportLinks = [
     {
-      href: '{base}/reports/receipt-invoices',
+      href: '/reports/receipt-invoices',
       title: 'Receipt / Invoices',
       note: 'Open generated receipt and invoice artifacts.',
       group: 'Compliance',
       available: true
     },
     {
-      href: '{base}/reports/financial-statements',
+      href: 'reports/financial-statements',
       title: 'Financial Statements',
       note: 'Generate statement-ready summaries and totals.',
       group: 'Financials',
