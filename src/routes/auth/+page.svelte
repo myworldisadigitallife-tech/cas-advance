@@ -21,7 +21,7 @@
 
       const data = await res.json();
       localStorage.setItem('token', data.token);
-      window.location.href = '/cas-advance/dashboard';
+      window.location.href = '/dashboard';
     } catch (e) {
       error = e instanceof Error ? e.message : 'Login failed';
     }
