@@ -12,9 +12,10 @@ const config = {
       return; 
     }
   },    
-    adapter: adapter({ fallback: '404.html' }),
+    adapter: adapter({ fallback: 'index.html' }),
     paths: {
-      base: process.env.NODE_ENV === '' ? '' : ''
+      base: ''
+      // base: process.env.NODE_ENV === '' ? '' : ''
     }
   }
 };
