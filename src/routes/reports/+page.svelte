@@ -10,7 +10,7 @@
       available: true
     },
     {
-      href: 'reports/financial-statements',
+      href: '/reports/financial-statements',
       title: 'Financial Statements',
       note: 'Generate statement-ready summaries and totals.',
       group: 'Financials',
